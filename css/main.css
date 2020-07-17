@@ -40,6 +40,8 @@ body {
   margin: auto auto;
   padding-bottom:30px;
   width:70vmin;
+  height: 380px;
+  overflow: scroll;
 }
 
 #email {
@@ -47,9 +49,50 @@ body {
 }
 
 .colorlink {
+    background-color:black;
+    border-color:red;
+    border-radius: 3em;
+    border-style: solid;
     font-family: "Courier", monospace;
     text-decoration: none;
     color: red;
     text-align: center;
     font-size: 20px;
+    padding: 5px;
+}
+
+.content_terms {
+  margin: auto auto;
+  width:80vmin;
+}
+
+.content_terms h1 {
+  color: black;
+  font-family: "Courier";
+  font-size:30px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.content_terms h2 {
+  color:black;
+  font-family: "Courier";
+  font-size:25px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+
+}
+
+.content_terms p {
+  color: black;
+  font-family: "Courier";
+  font-size:16px;
+  text-align: left;
+}
+
+#terms {
+  font-family: "Courier";
+  margin: auto auto;
+  padding-bottom:30px;
+  width:80vmin;
 }
